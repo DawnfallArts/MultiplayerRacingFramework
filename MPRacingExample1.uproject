@@ -6,7 +6,8 @@
 	"Plugins": [
 		{
 			"Name": "MultiplayerRacingFramework",
-			"Enabled": true
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/5ab785c25d9c4ca587cf9cd8f748512c"
 		}
 	]
 }
