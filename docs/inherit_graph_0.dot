@@ -1,0 +1,14 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node43 [label="AActor",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node43 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 [label="ALapCheckPoint",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_a_lap_check_point.html",tooltip=" "];
+  Node43 -> Node45 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node45 [label="ARaceCheckPoint",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_a_race_check_point.html",tooltip=" "];
+  Node43 -> Node46 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node46 [label="ASpawnPoint",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_a_spawn_point.html",tooltip=" "];
+}
